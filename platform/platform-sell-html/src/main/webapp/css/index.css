@@ -1,0 +1,30 @@
+body {
+	color: #666;
+	background: #ffffff;
+}
+.bars {
+	width: 100%;
+	height: 30px;
+	background: #F1F1F1;
+}
+.all-width {
+	width : 1210px;
+	MARGIN-RIGHT: auto; 
+	MARGIN-LEFT: auto;
+}
+.head {
+	height : 100px;
+}
+.rise {
+	height : 44px;
+	border-bottom: 2px solid #B1191A;
+}
+.main {
+	height : 466px;
+	background : #ff0080;
+}
+.guess {
+	width: 9349px;
+	height: 936px;
+	background : #0000ff;
+}
