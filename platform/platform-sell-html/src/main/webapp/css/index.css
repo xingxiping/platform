@@ -14,8 +14,40 @@ body {
 }
 .bar-mycity {
 	height: 7px;
+	width:260px;
 	padding: 6px 25px 0 10px;
 	font-size: 10px;
+}
+.bar-contents {
+	position:absolute;
+	width: 800px;
+	left:480px;
+	top:4px;
+}
+.bar-contents ul {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.bar-contents li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 11px;
+	margin: 0px;
+	border-right:solid;
+	border-right-width:1px;
+	border-right-color:#c0c0c0;
+	font-size: 12px;
+	
+}
+.bar-contents a{
+	color: #808080;
+	text-decoration: none;
+}
+.bar-contents.li-phone{
+	background:  url(../image/login/jd2015img.png) 0 0 no-repeat
 }
 .head {
 	height : 100px;
@@ -26,7 +58,6 @@ body {
 }
 .main {
 	height : 466px;
-	background : #ff0080;
 }
 .guess {
 	width: 9349px;
@@ -65,6 +96,23 @@ body {
 	border-style: solid;
 	font-size: 16px;
 	font-family: "microsoft yahei"; 
+}
+.head ul{
+	float: left;
+	position:relative;
+	top:3px;
+	left:-40px;
+	margin:0px;
+ 	padding:0px;
+ 	width: 516px;
+ 	height: 25px;
+	
+}
+.head li {
+	float:left;
+	list-style: none;
+	font-size: 12px;
+	padding:0px 7px;
 }
 .head .shopcar {
 	width :145px;
@@ -135,3 +183,161 @@ body {
     color: #333;
 	
 }
+.rise .rise-variety a {
+	color: #400040;
+	text-decoration: none;
+}
+.main .main-variety {
+	position:relative;
+	width: 210px;
+	background: #c81623;
+}
+.main .main-variety-inner {
+	float:left;
+	position:relative;
+	width: 210px;
+	height:465px;
+	background: #c81623;
+}
+.main .main-variety-inner .item {
+	position:relative;
+	border-left-width:1px;
+	border-left-color:#b61d1d;
+	border-left-style:solid;
+	height: 31px;
+	font-size: 16px;
+	color: #ffffff;
+}
+.main .main-variety .item a{
+	position:relative;
+	border-left:1px solid ##b61d1d;
+	text-decoration: none;
+	line-height:20px;
+	top:5px;
+	left:10px;
+	color: #ffffff;
+	font-family: "microsoft yahei"; 
+	font-size: 14px;
+}
+.main .main-variety .item i{
+	float:right;
+	position:relative;
+	top:10px;
+	right:10px;
+	width:4px;
+	height:14px;
+	font: 400 9px/14px consolas;
+	color: #ffffff;
+}
+.main .showimage {
+	float:left;
+	position: relative;
+	width:730px;
+	top: 12px;
+	left: 12px;
+}
+.main .main-leftnews {
+	height: 163px;
+	width:250px;
+	position: relative;
+	float:left;
+	top:12px;
+	left:22px;
+	border: 1px solid #E8E8E7;
+}
+.main .main-leftnews .main-leftnewstitle {
+	height: 32px;
+	border-bottom: 1px dotted #E8E8E7;
+	padding: 0px 15px;
+	line-height: 32px;
+}
+.main .main-leftnews .main-leftnewstitle .a-title {
+	text-decoration: none;
+	color: #6f6f6f;
+	font-family: "microsoft yahei";
+    font-weight: 400;
+    font-size: 16px;
+}
+.main .main-leftnews .main-leftnewstitle .a-title1 {
+	float:right;
+	text-decoration: none;
+	color: #636363;
+    font-weight: 400;
+    font-size: 13px;
+}
+.main .main-leftnews .main-leftnewsinfo {
+    height: 120px;
+    padding-top: 5px;
+}
+.main .main-leftnews .main-leftnewsinfo ul{
+    list-style: none;
+}
+.main .main-leftnews .main-leftnewsinfo li{
+	position:relative;
+	float: left;
+	left:-25px;
+	height: 24px;
+	width: 210px;
+	
+}
+.main .main-leftnews .main-leftnewsinfo a{
+	position:relative;
+	float: left;
+	line-height:24px;
+	font-size:12px;
+	color: #636363;
+	text-decoration: none;
+}
+.main .main-leftnews .main-leftnewsinfo span{
+	font-weight: 700;
+    margin-right: 5px;
+}
+.main .leftserv li {
+	float: left;
+	position: relative;
+	width: 62px;
+	height: 69px;
+	border-right: 1px solid #E8E8E7;
+    border-bottom: 1px solid #E8E8E7;
+}
+.main .leftserv ul{
+    list-style: none;
+    position: relative;
+    padding-left:0px;
+    width: 260px;
+    height: 209px;
+}
+.main .leftserv {
+	width:250px;
+	height:208px;
+	border:1px solid #E8E8E7;
+	position:relative;
+	float:left;
+	top: 11px;
+	left:22px;
+}
+.main .leftserv .ci-left {
+	display: block;
+	position:relative;
+	width: 25px;
+	height: 27px;
+	top:14px;
+	left:17px;
+}
+.main .leftserv a {
+	display: block;
+	text-align: center;
+	line-height: 51px;
+}
+.main .leftserv span {
+	font-size:12px;
+	color: #636363;
+	text-decoration: none; 	
+}
+.main .left-adv {
+	position: relative;
+	float: left;
+	top: 19px;
+	left: 22px;
+}
+
