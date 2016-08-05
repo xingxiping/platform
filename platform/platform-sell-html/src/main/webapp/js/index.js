@@ -45,4 +45,17 @@ $(function() {
      $(".slide-six").click(function(){
          $("#slidershow").carousel(5);
       });
+     
+     
+     
+     
+     $("#slidershow_1").carousel({
+ 		interval : 2000
+ 	});
+ 	$("#slidershow_1 a.left").click(function() {
+ 		$(".carousel").carousel("prev");
+ 	});
+ 	$("#slidershow_1 a.right").click(function() {
+ 		$(".carousel").carousel("next");
+ 	});
 });
